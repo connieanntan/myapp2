@@ -42,6 +42,9 @@
                                         <state key="normal" title="About">
                                             <color key="titleColor" red="0.91764705882352937" green="0.90588235294117647" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Tqx-Aq-PMf" kind="show" id="dkl-0P-cQj"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gg-g6-58v">
                                         <rect key="frame" x="138" y="355" width="43" height="32"/>
@@ -50,6 +53,20 @@
                                         <state key="normal" title="Menu">
                                             <color key="titleColor" red="0.91764705879999997" green="0.90588235289999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="ax7-4E-nff" kind="show" id="EBM-31-EfH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2f1-J3-zbM">
+                                        <rect key="frame" x="129" y="429" width="61" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                        <state key="normal" title="Contact">
+                                            <color key="titleColor" red="0.91764705879999997" green="0.90588235289999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="DDL-03-4Di" kind="show" id="WzL-EW-yLv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0039215686274509803" green="0.054901960784313725" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
@@ -105,7 +122,7 @@
                                     <color key="titleColor" red="0.91764705879999997" green="0.90588235289999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="WaS-3b-ZLA" kind="show" id="Agu-DZ-9EB"/>
+                                    <segue destination="WaS-3b-ZLA" kind="show" id="IXA-09-my7"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="OYM-w5-kSt">

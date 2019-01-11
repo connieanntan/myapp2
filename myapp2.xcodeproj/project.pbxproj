@@ -12,6 +12,10 @@
 		7860AA3D21E2333C00F142FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7860AA3B21E2333C00F142FB /* Main.storyboard */; };
 		7860AA3F21E2333D00F142FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7860AA3E21E2333D00F142FB /* Assets.xcassets */; };
 		7860AA4221E2333D00F142FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7860AA4021E2333D00F142FB /* LaunchScreen.storyboard */; };
+		7862649F21E7607500F53B10 /* PollyRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7862649B21E7607500F53B10 /* PollyRounded-Light.otf */; };
+		786264A021E7607500F53B10 /* PollyRounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7862649C21E7607500F53B10 /* PollyRounded-Regular.otf */; };
+		786264A121E7607500F53B10 /* PollyRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7862649D21E7607500F53B10 /* PollyRounded-Bold.otf */; };
+		786264A221E7607500F53B10 /* PollyRounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7862649E21E7607500F53B10 /* PollyRounded-Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7860AA3E21E2333D00F142FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7860AA4121E2333D00F142FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7860AA4321E2333D00F142FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7862649B21E7607500F53B10 /* PollyRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PollyRounded-Light.otf"; path = "../../../../Downloads/polly___rounded/PollyRounded-Light.otf"; sourceTree = "<group>"; };
+		7862649C21E7607500F53B10 /* PollyRounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PollyRounded-Regular.otf"; path = "../../../../Downloads/polly___rounded/PollyRounded-Regular.otf"; sourceTree = "<group>"; };
+		7862649D21E7607500F53B10 /* PollyRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PollyRounded-Bold.otf"; path = "../../../../Downloads/polly___rounded/PollyRounded-Bold.otf"; sourceTree = "<group>"; };
+		7862649E21E7607500F53B10 /* PollyRounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PollyRounded-Thin.otf"; path = "../../../../Downloads/polly___rounded/PollyRounded-Thin.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				7860AA3721E2333C00F142FB /* AppDelegate.swift */,
 				7860AA3921E2333C00F142FB /* ViewController.swift */,
 				7860AA3B21E2333C00F142FB /* Main.storyboard */,
+				7862649D21E7607500F53B10 /* PollyRounded-Bold.otf */,
+				7862649B21E7607500F53B10 /* PollyRounded-Light.otf */,
+				7862649C21E7607500F53B10 /* PollyRounded-Regular.otf */,
+				7862649E21E7607500F53B10 /* PollyRounded-Thin.otf */,
 				7860AA3E21E2333D00F142FB /* Assets.xcassets */,
 				7860AA4021E2333D00F142FB /* LaunchScreen.storyboard */,
 				7860AA4321E2333D00F142FB /* Info.plist */,
@@ -122,9 +134,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786264A021E7607500F53B10 /* PollyRounded-Regular.otf in Resources */,
 				7860AA4221E2333D00F142FB /* LaunchScreen.storyboard in Resources */,
 				7860AA3F21E2333D00F142FB /* Assets.xcassets in Resources */,
 				7860AA3D21E2333C00F142FB /* Main.storyboard in Resources */,
+				7862649F21E7607500F53B10 /* PollyRounded-Light.otf in Resources */,
+				786264A121E7607500F53B10 /* PollyRounded-Bold.otf in Resources */,
+				786264A221E7607500F53B10 /* PollyRounded-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
